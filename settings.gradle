@@ -1,1 +1,1 @@
-include ':app', ':superxutil'
+include ':app', ':superxutil', ':pulltorefresh'
