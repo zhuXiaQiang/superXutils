@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sl_shape_f_e4"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+        style="@style/s_text_32px_000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/d_mag_12px"
+        android:layout_marginTop="@dimen/d_mag_12px"
+        android:text="网络不给力" />
+
+    <TextView
+        style="@style/s_text_32px_0adec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="点击页面重新加载" />
+
+</LinearLayout>

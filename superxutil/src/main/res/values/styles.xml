@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!---->
+    <style name="s_text_36px_000">
+        <item name="android:textSize">@dimen/d_text_36px</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="s_text_32px_000000">
+        <item name="android:textSize">@dimen/d_text_32px</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="s_text_32px_0adec">
+        <item name="android:textSize">@dimen/d_text_32px</item>
+        <item name="android:textColor">@color/color_00abec</item>
+    </style>
+
+</resources>

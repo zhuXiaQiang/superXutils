@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/actionbar_title"
+    android:layout_height="@dimen/title_height_96px"
+    android:background="@color/action_bar_title" >
+
+    <LinearLayout
+        android:id="@+id/action_leftLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/sl_shape_f_e4"
+        android:paddingLeft="@dimen/d_mag_30px"
+        android:paddingRight="@dimen/d_mag_30px"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/action_leftImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_arrow_left_lanse" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/action_title_text"
+        style="@style/s_text_36px_000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="标题" />
+
+    <LinearLayout
+        android:id="@+id/action_rightLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="@dimen/d_mag_30px"
+        android:paddingRight="@dimen/d_mag_30px"
+        android:background="@drawable/sl_shape_f_e4"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/action_rightImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_arrow_left_lanse" />
+    </LinearLayout>
+     <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:scaleType="fitXY"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:src="@color/my_line" />
+
+     <LinearLayout
+         android:id="@+id/layoutLoad"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_above="@+id/imageView1"
+         android:layout_alignParentTop="true"
+         android:visibility="gone"
+         android:layout_toRightOf="@+id/action_title_text"
+         android:orientation="vertical" >
+
+         <ProgressBar
+             android:id="@+id/progressBar1"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent" />
+
+     </LinearLayout>
+
+</RelativeLayout>

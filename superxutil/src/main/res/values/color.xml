@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- actionbar标题背景 -->
+    <color name="action_bar_title">#fff</color>
+
+    <!--线-->
+    <color name="my_line">#e5e5e5</color>
+
+    <!--背景色-->
+    <color name="bg_fff">#fff</color>
+    <!---->
+    <color name="color_00abec">#00abec</color>
+
+</resources>

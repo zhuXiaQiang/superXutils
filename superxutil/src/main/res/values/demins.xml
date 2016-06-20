@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 标题栏高度 -->
+    <dimen name="title_height_96px">48dp</dimen>
+    <!-- ++++++++++++++++++++++++字体大小Begin++++++++++++++++++++++++ -->
+    <!-- 导航栏 栏目名称 -->
+    <dimen name="d_text_36px">18sp</dimen>
+    <!-- 标题文字 -->
+    <dimen name="d_text_32px">16sp</dimen>
+    <!-- 主要文字,正文 -->
+    <dimen name="d_text_28px">14sp</dimen>
+    <!-- 辅助文字,提示文字 -->
+    <dimen name="d_text_24px">12sp</dimen>
+    <!-- 底部导航,工具栏辅助性文字 -->
+    <dimen name="d_text_22px">11sp</dimen>
+    <!-- ++++++++++++++++++++++++End++++++++++++++++++++++++ -->
+
+    <!-- ++++++++++++++++++++++++外边距相关Begin++++++++++++++++++++++++ -->
+    <!-- 公用外边距 -->
+    <dimen name="d_mag_12px">6dp</dimen>
+    <dimen name="d_mag_16px">8dp</dimen>
+    <dimen name="d_mag_20px">10dp</dimen>
+    <dimen name="d_mag_24px">12dp</dimen>
+    <dimen name="d_mag_26px">13dp</dimen>
+    <dimen name="d_mag_28px">14dp</dimen>
+    <dimen name="d_mag_32px">16dp</dimen>
+    <dimen name="d_mag_36px">18dp</dimen>
+    <dimen name="d_mag_40px">20dp</dimen>
+    <dimen name="d_mag_60px">30dp</dimen>
+    <!-- 所有元素外边距 -->
+    <dimen name="d_mag_30px">15dp</dimen>
+    <!-- 状态栏高度 -->
+    <dimen name="d_item_150px">75dp</dimen>
+    <dimen name="d_item_110px">55dp</dimen>
+    <dimen name="d_item_100px">50dp</dimen>
+    <dimen name="d_item_88px">44dp</dimen>
+    <dimen name="d_item_80px">40dp</dimen>
+
+
+    <!-- 版本号底部外边距 -->
+    <!-- ++++++++++++++++++++++++外边距相关End++++++++++++++++++++++++ -->
+
+
+
+</resources>
